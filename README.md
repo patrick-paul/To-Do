@@ -1,6 +1,7 @@
 # To-Do
 A 3 To-Do App, made with HTML, CSS &amp; JavaScript
-Can only allow three To-Do 
+
+Can only allow three To-Do, pretty nice and intaractive
 
 ![Capture](https://user-images.githubusercontent.com/51241762/182174344-1eb84722-b670-4538-b8a0-c36a43c0cf7b.PNG)
 ![Capture2](https://user-images.githubusercontent.com/51241762/182174452-7045b88f-4262-458c-b48a-5197320c1447.PNG)
