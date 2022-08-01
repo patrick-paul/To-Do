@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>To-Do</title>
+	<link rel="stylesheet" type="text/css" href="css\To-Do.css">
+</head>
+
+<body background="background\img3.jpg">
+	<div>
+		<h1>
+			<span id="cls">3</span> To-DOs</h1>
+		<input type="text" value="Enter A To-Do" id="input001" onclick="this.select()" onmouseout="this.style.transition = 0.5 + 's';"
+		/>
+		<br />
+		<br />
+		<input type="button" value="Insert" id="button" onmouseout="document.getElementById('button').style.transition = 0.5 + 's';"
+		 onclick="send()">
+	</div>
+	<div>
+		<fieldset>
+			<legend>Your To-Do(s)</legend>
+			<p id="import"> 
+			<a href="To-Do.html" title="Press To Reset The App!"> <input class="resert" type="button" value="resert"/> </a>
+			</p>
+		</fieldset>
+	</div>
+
+	<div id="dialogoverlay"></div>
+	<div id="dialogbox">
+		<div>
+			<div id="dialogboxhead"></div>
+			<div id="dialogboxbody"></div>
+			<div id="dialogboxfoot"></div>
+		</div>
+	</div>
+
+	<script src="js\To-Do.js"></script>
+</body>
+
+</html>
